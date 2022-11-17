@@ -147,8 +147,6 @@ int handle_args(int *exe_ret)
 	int ret = 0, index;
 	char **args, *line = NULL, **front;
 
-	front;
-
 	line = get_args(line, exe_ret);
 	if (!line)
 		return (END_OF_FILE);
